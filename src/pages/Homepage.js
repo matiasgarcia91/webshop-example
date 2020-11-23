@@ -25,6 +25,8 @@ const Homepage = () => {
     dispatch(fetchProducts());
   }, []);
 
+  console.log(allProducts);
+
   const onActivateFilters = categoryId => {
     if (filters.includes(categoryId)) {
       setFilters(filters => filters.filter(c => c !== categoryId));
