@@ -48,7 +48,7 @@ const Homepage = () => {
         <h2>Any change works</h2>
         <div
           style={{
-            height: 100,
+            height: 50,
             width: 50,
             paddingTop: 10,
             display: "flex",
