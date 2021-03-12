@@ -45,10 +45,10 @@ const Homepage = () => {
       }}
     >
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <h2>Any change works</h2>
+        <h2>CD Store</h2>
         <div
           style={{
-            height: 50,
+            height: 100,
             width: 50,
             paddingTop: 10,
             display: "flex",
