@@ -18,7 +18,7 @@ const ProductCard = ({ product }) => {
     >
       <img src={product.imageUrl} style={{ maxHeight: 250 }} />
       <h3>{product.name}</h3>
-      <p>Lorem ipsum etc</p>
+      <p>Some better title</p>
       <Button
         variant='contained'
         color='primary'
